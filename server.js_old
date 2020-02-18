@@ -1,0 +1,28 @@
+var net = require('net');
+var logger=require('./logger');
+var tcpClient= require('tcp-client')
+ 
+var options ={}
+options.ip= '127.0.0.1'    //192.168.xxx.xxx
+options.port= '1557'  //6777
+options.timeout='31536000'  //5000 => 5seg
+ 
+var client = tcpClient.createClient(options)
+ 
+var server = net.createServer(function(socket) {
+    //socket.write('Echo server\r\n');
+    socket.on('data', function(chunk) {
+     // socket.write(chunk);
+      logger.info(chunk);
+      //client.request(chunk,function (err, response) {
+        // do something with response
+     // })
+    });
+    socket.on('end', socket.end);
+});
+logger.info('starting..........................');
+  
+server.listen(1557, '127.0.0.1');
+
+
+

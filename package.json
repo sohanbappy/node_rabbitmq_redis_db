@@ -1,0 +1,29 @@
+{
+  "name": "tcpserver",
+  "version": "1.0.0",
+  "description": "a simple node tcp server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rakib",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.7",
+    "amqplib": "^0.5.5",
+    "crc16": "^1.0.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "pino": "^5.13.4",
+    "redis": "^2.8.0",
+    "tcp-client": "^1.1.9",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3"
+  }
+}
