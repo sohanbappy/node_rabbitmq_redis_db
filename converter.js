@@ -14,7 +14,8 @@ function bytesToHex(bytes) {
     }
     return hex.join("");
 }
-
+//0358979100015984787822221402160B2027C7028BBDF709B38C840014EF01D601523500B505010000000736970D0A from-bike-database
+//0358979100015984787822221402160B2027C7028BBDF709B38C840014EF01D601523500B505010000000736970D0A  from-documentation
 
 let dataWithHwId = "0358979100015984787822221402160B2027C7028BBDF709B38C840014EF01D601523500B505010000000736970D0A";
 let bytes = [];
@@ -42,7 +43,9 @@ String.prototype.getBytes = function (){
     hex2dec : s => parseInt(s, 16).toString(10)
   };
   //according to documentation
-console.log("Year: "+convert.hex2dec(raw_data.slice(8,10)));
+console.log("Year: "+convert.hex2dec(raw_data.slice(8,10))+" Month: "+convert.hex2dec(raw_data.slice(10,12))+" Date: "+convert.hex2dec(raw_data.slice(12,14)));
+console.log("Hour: "+convert.hex2dec(raw_data.slice(14,16))+" Minute: "+convert.hex2dec(raw_data.slice(16,18))+" Second: "+convert.hex2dec(raw_data.slice(18,20)));
+console.log("GPS: "+convert.hex2dec(raw_data.slice(21,22))); //1-bit(2nd) -> available GPS
 console.log("GPS: "+convert.hex2dec(raw_data.slice(21,22))); //1-bit(2nd) -> available GPS
 console.log("Lat: "+convert.hex2dec(raw_data.slice(22,30))/1800000); //decimal devided by 1800000
 console.log("Lon: "+convert.hex2dec(raw_data.slice(30,38))/1800000); //decimal devided by 1800000
