@@ -28,15 +28,6 @@ const logger = winston.createLogger({
     transports: [
       
       transport_new,
-
-      new winston.transports.File({ 
-      filename: 'combinedlog_back_'+formattedDate,
-      // level: 'error',
-      zippedArchive: true,
-      timestamp:true, 
-      maxSize: '1000000', //1MB  fileSize in bytes
-     // maxFiles: '1d'  //1d  for OneDay & 1 for OneMB 
-      }),
       //
       // - Write to all logs with level `info` and below to `combined.log` 
       // - Write all logs error (and below) to `error.log`.

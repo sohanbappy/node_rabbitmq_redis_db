@@ -6,9 +6,9 @@ const opt = { credentials: amqp.credentials.plain('newbappy', 'bappy') };
 let queue = 'bike-p22';
 let protocol_no = '22';
 let status = 0;
-let packet = '';
 const REDIS_PORT = process.env.PORT || 6379;
 const redisClient = redis.createClient(REDIS_PORT);
+
 
 
 // Convert a hex string to a Decimal bytes array (working fine)
@@ -56,6 +56,7 @@ conn.createChannel((err2,ch) => {
         if(raw_packet.length < 100 && raw_packet.length > 10){
             status = 1;
         }
+        //let fullPacket = new PacketV1(hid,protocol_no,raw_packet,status);
         console.log(`Received from ${queue} : ${raw_packet}`); // raw_packet in Hex bytes
                 console.log(`Protocol-22 data saved for ${hid}`); 
                 let decoded = hexToBytes(raw_packet);
