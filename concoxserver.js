@@ -158,6 +158,7 @@ var server = net.createServer(async function(client) {
 
                     }
                     break;
+                    //heartbeat packet-1
                 case '13':
                     var sr1=data.slice(18,22)
                     var res1=generateStatusResponse(sr1);
@@ -165,6 +166,18 @@ var server = net.createServer(async function(client) {
                     if(hid.length==16){
                   
                         channel.sendToQueue('bike-p13', Buffer.from(hid+data));
+                        logger.info(hid+'-----len----'+(hid+data).length);
+
+                    }
+                    break;
+                     //heartbeat packet-2
+                case '23':
+                    var sr1=data.slice(18,22)
+                    var res1=generateStatusResponse(sr1);
+                    client.write(Buffer.from(res1,'hex'));
+                    if(hid.length==16){
+                  
+                        channel.sendToQueue('bike-p23', Buffer.from(hid+data));
                         logger.info(hid+'-----len----'+(hid+data).length);
 
                     }
