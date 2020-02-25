@@ -111,8 +111,8 @@ if(terminal_info_26.length<8){
 console.log("Terminal Info: "+terminal_info_26);
 console.log("Oil and electricity connected or not? "+terminal_info_26[0]);
 console.log("GPS tracking is on or off? "+terminal_info_26[1]);
-let type = terminal_info_26[2]+terminal_info_26[3]+terminal_info_26[4];
-console.log("Alarm for What? "+type); //000  for Normal
+let condition = terminal_info_26[2]+terminal_info_26[3]+terminal_info_26[4];
+console.log("Low Battery or Normal? "+condition); //000  for Normal
 console.log("Charging or Not? "+terminal_info_26[5]);
 console.log("ACC Status: "+terminal_info_26[6]);
 console.log("Defence active or not? "+terminal_info_26[7]);
