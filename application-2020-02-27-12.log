@@ -1,0 +1,58 @@
+{"message":"Client disconnect.","level":"info","timestamp":"2020-02-27 12:02:24"}
+{"message":"There are 5 connections now. ","level":"info","timestamp":"2020-02-27 12:02:24"}
+{"message":"Client connect. Client local address : ::ffff:192.168.10.104:1720. client remote address : ::ffff:119.30.35.6:16670","level":"info","timestamp":"2020-02-27 12:02:28"}
+{"message":"There are 6 connections now. ","level":"info","timestamp":"2020-02-27 12:02:28"}
+{"message":"Receive client send data : 78781101035897910001598480042581001069980D0A, data size : 22","level":"info","timestamp":"2020-02-27 12:02:28"}
+{"message":"78781101035897910001598480042581001069980D0A","level":"info","timestamp":"2020-02-27 12:02:28"}
+{"message":"protocol: 01","level":"info","timestamp":"2020-02-27 12:02:28"}
+{"message":"hid:0358979100015984","level":"info","timestamp":"2020-02-27 12:02:28"}
+{"message":10,"level":"info","timestamp":"2020-02-27 12:02:28"}
+{"message":"0358979100015984-----len----60","level":"info","timestamp":"2020-02-27 12:02:28"}
+{"message":"0D0A","level":"info","timestamp":"2020-02-27 12:02:28"}
+{"message":"Receive client send data : 78780B2347059F0400020011B5610D0A, data size : 38","level":"info","timestamp":"2020-02-27 12:02:29"}
+{"message":"78780B2347059F0400020011B5610D0A","level":"info","timestamp":"2020-02-27 12:02:29"}
+{"message":"protocol: 23","level":"info","timestamp":"2020-02-27 12:02:29"}
+{"message":"0358979100015984-----len----48","level":"info","timestamp":"2020-02-27 12:02:29"}
+{"message":"0D0A","level":"info","timestamp":"2020-02-27 12:02:29"}
+{"message":"Receive client send data : 7979001894230110414DC47BF2794E7F154C45419249692100129E630D0A7979000C9421C4A8280C48F50013CC960D0A, data size : 86","level":"info","timestamp":"2020-02-27 12:02:29"}
+{"message":"7979001894230110414DC47BF2794E7F154C45419249692100129E630D0A","level":"info","timestamp":"2020-02-27 12:02:29"}
+{"message":"protocol: 18","level":"info","timestamp":"2020-02-27 12:02:29"}
+{"message":"0358979100015984-----len----76","level":"info","timestamp":"2020-02-27 12:02:29"}
+{"message":"7979000C9421C4A8280C48F50013CC960D0A","level":"info","timestamp":"2020-02-27 12:02:29"}
+{"message":"protocol: 0C","level":"info","timestamp":"2020-02-27 12:02:29"}
+{"message":"0358979100015984-----len----52","level":"info","timestamp":"2020-02-27 12:02:29"}
+{"message":"0D0A","level":"info","timestamp":"2020-02-27 12:02:29"}
+{"message":"Receive client send data : 7878222214021B053002C7028BBDE609B3895A00142B01D601523500B5050100010014210F0D0A, data size : 125","level":"info","timestamp":"2020-02-27 12:02:30"}
+{"message":"7878222214021B053002C7028BBDE609B3895A00142B01D601523500B5050100010014210F0D0A","level":"info","timestamp":"2020-02-27 12:02:30"}
+{"message":"protocol: 22","level":"info","timestamp":"2020-02-27 12:02:30"}
+{"message":"0358979100015984-----len----94","level":"info","timestamp":"2020-02-27 12:02:30"}
+{"message":"0D0A","level":"info","timestamp":"2020-02-27 12:02:30"}
+{"message":"Receive client send data : 78780B234705D10400020015C8360D0A, data size : 141","level":"info","timestamp":"2020-02-27 12:05:29"}
+{"message":"78780B234705D10400020015C8360D0A","level":"info","timestamp":"2020-02-27 12:05:29"}
+{"message":"protocol: 23","level":"info","timestamp":"2020-02-27 12:05:29"}
+{"message":"0358979100015984-----len----48","level":"info","timestamp":"2020-02-27 12:05:29"}
+{"message":"0D0A","level":"info","timestamp":"2020-02-27 12:05:29"}
+{"message":"Client disconnect.","level":"info","timestamp":"2020-02-27 12:08:28"}
+{"message":"There are 5 connections now. ","level":"info","timestamp":"2020-02-27 12:08:28"}
+{"message":"Client connect. Client local address : ::ffff:192.168.10.104:1720. client remote address : ::ffff:119.30.38.185:45776","level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":"There are 6 connections now. ","level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":"Receive client send data : 7878110103589791000159848004258100160CAE0D0A, data size : 22","level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":"7878110103589791000159848004258100160CAE0D0A","level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":"protocol: 01","level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":"hid:0358979100015984","level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":10,"level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":"0358979100015984-----len----60","level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":"0D0A","level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":"Receive client send data : 78780B234705B3040002001764C30D0A, data size : 38","level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":"78780B234705B3040002001764C30D0A","level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":"protocol: 23","level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":"0358979100015984-----len----48","level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":"0D0A","level":"info","timestamp":"2020-02-27 12:08:33"}
+{"message":"Receive client send data : 7979001894230110414DC47BF2794E7F154C454192496921001831390D0A7979000C9421C4A8280C48F5001963CC0D0A, data size : 86","level":"info","timestamp":"2020-02-27 12:08:35"}
+{"message":"7979001894230110414DC47BF2794E7F154C454192496921001831390D0A","level":"info","timestamp":"2020-02-27 12:08:35"}
+{"message":"protocol: 18","level":"info","timestamp":"2020-02-27 12:08:35"}
+{"message":"0358979100015984-----len----76","level":"info","timestamp":"2020-02-27 12:08:35"}
+{"message":"7979000C9421C4A8280C48F5001963CC0D0A","level":"info","timestamp":"2020-02-27 12:08:35"}
+{"message":"protocol: 0C","level":"info","timestamp":"2020-02-27 12:08:35"}
+{"message":"0358979100015984-----len----52","level":"info","timestamp":"2020-02-27 12:08:35"}
+{"message":"0D0A","level":"info","timestamp":"2020-02-27 12:08:35"}

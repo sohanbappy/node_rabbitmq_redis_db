@@ -98,7 +98,7 @@ if(course_26.length<16){
 console.log("Total Course: "+course_26); //course and status
 console.log("Real-time or Differential? "+course_26[2]);
 console.log("GPS positioned or not? "+course_26[3]);
-console.log("East or West?"+course_26[4]);//Zero-East
+console.log("East or West? "+course_26[4]);//Zero-East
 console.log("South or North? "+course_26[5]);//Zero-South
 console.log("Only Course: "+convert.bin2dec(course_26.slice(6,course_26.length))+" degree(s)"); //converting to decimal
 //Difference from Here
